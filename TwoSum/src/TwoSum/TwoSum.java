@@ -18,12 +18,9 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++){
-            arr[i] = sc.nextInt();
-        }
-        int target = sc.nextInt();
+        int[] arr = new int[] {2,7,11,15}; //3,2,4  //3,3
+
+        int target = 9; //6  //6
         System.out.println(Arrays.toString(twoSum(arr, target)));
     }
 
